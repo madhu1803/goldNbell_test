@@ -6,13 +6,45 @@
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 	<link rel="stylesheet" href="css/index.css" />
 	<title> </title>
+	<style>
+		@media only screen and (min-width: 768px) {
+
+			/* For desktop: */
+			.hero_form {
+				background: gray;
+				position: absolute;
+				padding: 20px 50px 50px;
+				margin: 0 auto;
+				box-sizing: border-box;
+				top: 20%;
+				left: 10%;
+				z-index: 1;
+			}
+
+		}
+
+		@media only screen and (max-width: 768px) {
+
+			/* For mobile phones: */
+			.hero_form {
+				background: gray;
+				position: absolute;
+				padding: 10px 10px 10px;
+				margin: 0 auto;
+				box-sizing: border-box;
+				top: 70%;
+				left: 25%;
+				z-index: 1;
+			}
+		}
+	</style>
 </head>
 
 <body>
-	<!--NAVBAR start-->
+	<!--CD-NAVBAR start-->
 
-	<section class="nb">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+	<section class="cd-nb">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 			<a class="navbar-brand" href="#">
 				<img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30"
 					class="d-inline-block align-top" alt="" />
@@ -42,9 +74,9 @@
 			</div>
 		</nav>
 	</section>
-	<!--Navbar end-->
-	<!--carousal start-->
-	<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+	<!--CD-Navbar end-->
+	<!--CD-carousal-start-->
+	<div id="carouselExampleFade cd-carousel" class="carousel slide carousel-fade" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="assets/images/images.jpeg" class="d-block w-100" alt="..." />
@@ -78,6 +110,52 @@
 				</div>
 			</div>
 		</div>
+		<div class="container row ">
+			<section class="search-filter">
+
+				<h1 style="text-align: center;">book taxi!</h1>
+				<form class="hero_form">
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">Select car for booking</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>innova</option>
+							<option>swift</option>
+							<option>alto</option>
+							<option>scorpio</option>
+							<option>hyundai</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">pick up location</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="ex">date and time</label>
+
+						<input type="datetime-local" name="bdaytime" class="form-control" id="ex">
+
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">drop location</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+					<button class="btn btn-outline-success block">Book cab!</button>
+				</form>
+
+			</section>
+		</div>
 		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
@@ -87,8 +165,8 @@
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-	<!-- carousel end-->
-	<!--form start-->
+	<!-- cd-carousel end-->
+	<!--cd-form start-->
 	<div class="container">
 		<section class="search-filter">
 			<div class="container bt">
@@ -136,8 +214,8 @@
 		</section>
 	</div>
 
-	<!--form end-->
-	<!--Content 1 start-->
+	<!--cd-form end-->
+	<!--cd-Content 1 start-->
 	<section id="firstcontent">
 		<div class="container">
 			<div class="row">
@@ -165,8 +243,8 @@
 			</div>
 		</div>
 	</section>
-	<!--content1 end-->
-	<!--Content 2 start-->
+	<!--cd-content1 end-->
+	<!--cd-Content 2 start-->
 	<section id="secondcontent">
 		<div class="container">
 			<div class="row">
@@ -193,9 +271,9 @@
 			</div>
 		</div>
 	</section>
-	<!--content2 end-->
+	<!--cd-content2 end-->
 	<hr />
-	<!--card section start-->
+	<!--cd-card section start-->
 	<section id="c">
 		<div class="container">
 			<h1 style="text-align: center;">About Us</h1>
@@ -269,9 +347,9 @@
 			</div>
 		</div>
 	</section>
-	<!--card section end-->
+	<!--cd-card section end-->
 	<hr />
-	<!--footer start-->
+	<!--cd-footer start-->
 	<section class="footer">
 
 		<div class="card fcard">
@@ -314,7 +392,7 @@
 
 		</div>
 	</section>
-	<!--footer end-->
+	<!--cd-footer end-->
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
