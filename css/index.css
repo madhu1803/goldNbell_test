@@ -10,9 +10,7 @@
   padding: 10% 20%;
   height: 800px;
 }
-.carousel-caption {
-  margin-left: 40%;
-}
+
 #firstcontent,
 #secondcontent {
   margin-top: 8%;
@@ -55,20 +53,6 @@ hr {
 
 .bt {
   margin-top: 8%;
-}
-
-.carousel-caption {
-  top: 20% !important;
-  left: 0;
-  right: 0;
-}
-
-.carousel-caption h1 {
-  font-size: 40px;
-}
-
-.carousel-caption p {
-  font-size: 20px;
 }
 
 .footer,
