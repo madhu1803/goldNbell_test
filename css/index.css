@@ -8,6 +8,7 @@
   right: 0;
   background: rgba(0, 0, 0, 0.4);
   padding: 10% 20%;
+  height: 800px;
 }
 .carousel-caption {
   margin-left: 40%;
@@ -74,4 +75,27 @@ hr {
 .fcard {
   background: black;
   color: white;
+}
+
+.main_car_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.main_car_content {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.cus_card {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: yellow;
+}
+.carousel-item img {
+  height: 800px;
 }

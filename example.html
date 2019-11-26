@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Place Autocomplete</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <input id="pac-input" type="text" placeholder="Enter a location">
+
+
+    <script>
+        function initMap() {
+            var input = document.getElementById('pac-input');
+            var autocomplete = new google.maps.places.Autocomplete(input);
+
+
+            autocomplete.addListener('place_changed', function () {});
+        }
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCV_e29ZNv8f0S3-2IzNwIPqc-ycslxNBE&libraries=places&callback=initMap"
+        async defer></script>
+</body>
+
+</html>
