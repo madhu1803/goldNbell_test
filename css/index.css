@@ -84,7 +84,7 @@ hr {
   height: 800px;
 }
 p {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Baskervville", serif;
 }
 h1,
 h2,
@@ -92,7 +92,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Baskervville", serif;
+  font-weight: 800;
 }
 .cus {
   color: white;
