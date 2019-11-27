@@ -57,7 +57,7 @@ hr {
 
 .footer,
 .fcard {
-  background: black;
+  background: pink;
   color: white;
 }
 
@@ -119,4 +119,28 @@ input[type="datetime-local"],
 .img1,
 .img2 {
   margin: 2.8%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .main {
+    background: url(https://media.gettyimages.com/photos/happy-young-woman-looking-out-of-car-window-picture-id709127533?s=2048x2048);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .main {
+    background: url(https://media.gettyimages.com/photos/happy-young-woman-looking-out-of-car-window-picture-id709127533?s=2048x2048);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
