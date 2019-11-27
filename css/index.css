@@ -157,9 +157,3 @@ input[type="datetime-local"],
 .lead {
   font-size: 25px;
 }
-@media only screen and (min-width: 768px) {
-  /* For mobile phones: */
-  .jumbotron img {
-    margin-left: 13%;
-  }
-}
