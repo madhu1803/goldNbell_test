@@ -55,12 +55,6 @@ hr {
   margin-top: 8%;
 }
 
-.footer,
-.fcard {
-  background: pink;
-  color: white;
-}
-
 .main_car_content {
   position: absolute;
   top: 0;
@@ -143,4 +137,19 @@ input[type="datetime-local"],
     background-attachment: fixed;
     background-position: center;
   }
+}
+.jumbotron {
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+      url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7twLjkhlHwxvJvbdD228XwK7OxXa5R0qOCVtOgHb7NTsdcft0);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
 }
