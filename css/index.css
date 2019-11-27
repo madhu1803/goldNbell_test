@@ -152,4 +152,14 @@ input[type="datetime-local"],
   padding-top: 20%;
   padding-bottom: 20%;
   color: white;
+  margin-top: 4%;
+}
+.lead {
+  font-size: 25px;
+}
+@media only screen and (min-width: 768px) {
+  /* For mobile phones: */
+  .jumbotron img {
+    margin-left: 13%;
+  }
 }
