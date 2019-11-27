@@ -104,9 +104,6 @@ h6 {
   top: 30%;
   text-align: left;
 }
-.dt img {
-  margin: 0 auto;
-}
 .cp {
   margin: 15% auto;
 }
@@ -117,4 +114,9 @@ input[type="text"],
 input[type="datetime-local"],
 #exampleFormControlSelect1 {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img1,
+.img2 {
+  margin: 2.8%;
 }
