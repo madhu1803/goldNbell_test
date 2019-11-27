@@ -133,7 +133,6 @@ input[type="datetime-local"],
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.9);
     background-attachment: fixed;
     background-position: center;
   }
