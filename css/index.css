@@ -76,9 +76,11 @@ hr {
 }
 
 .cus_card {
-  background: rgba(0, 0, 0, 0.8);
-  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+
   color: yellow;
+  padding: 15px;
+  margin-left: 4%;
 }
 .carousel-item img {
   height: 800px;
@@ -100,5 +102,19 @@ h6 {
   font-size: 25px;
   position: absolute;
   top: 30%;
-  text-align: center;
+  text-align: left;
+}
+.dt img {
+  margin: 0 auto;
+}
+.cp {
+  margin: 15% auto;
+}
+.cpbtn {
+  margin-left: 40%;
+}
+input[type="text"],
+input[type="datetime-local"],
+#exampleFormControlSelect1 {
+  background-color: rgba(0, 0, 0, 0.1);
 }
